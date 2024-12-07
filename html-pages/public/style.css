@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+body{
+    background-image: url(assets/img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.nav{
+    margin: 0px;   
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+li{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+a:hover{
+    color: rgb(30, 130, 30);
+}
+h1{
+    margin-bottom: 20px;
+}
+p{
+    max-width: 300px
+}
